@@ -60,13 +60,14 @@ public class BranchOperations {
 	
 	@After
 	public void tearDown() {
-		Reporter.loadXMLConfig(new File(Utility.getProperty("reportConfigPath")));
-		Reporter.setSystemInfo("User Name", Utility.getProperty("uname"));
+	    Reporter.loadXMLConfig(new File(Utility.getProperty("reportConfigPath")));
+	    Reporter.setSystemInfo("User Name", Utility.getProperty("uname"));
 	    Reporter.setSystemInfo("Time Zone", System.getProperty("user.timezone"));
 	    Reporter.setSystemInfo("Machine", "Windows 10" + "64 Bit");
 	    Reporter.setSystemInfo("Selenium", "3.141.59");
 	    Reporter.setSystemInfo("Maven", "3.5.2");
 	    Reporter.setSystemInfo("Java Version", "1.8.0_151");
+	    driver.close();
 	}
 
 	
