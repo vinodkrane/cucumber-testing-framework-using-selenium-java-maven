@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="24" failures="0" name="testRunner.TestRunnerPostComment" time="0.032" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\vinod_rane\eclipse-workspace_new\Gurukul"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\vinod_rane\eclipse-workspace_new\Gurukul"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\VINOD_~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\vinod_rane\eclipse-workspace_new\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7013561883407688109.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\poc\dir_1\dir_2\dir_3;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\vinod_rane\AppData\Local\Programs\Python\Python36-32\;C:\Users\vinod_rane\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Dwimperl\perl\bin;C:\Dwimperl\perl\site\bin;C:\Dwimperl\c\bin;C:\MyPerlWorkSpace;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Perforce\;C:\Program Files (x86)\apache-maven-3.6.0\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Users\vinod_rane\AppData\Local\Microsoft\WindowsApps;;C:\WINDOWS\system32;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\vinod_rane"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="vinod_rane"/>
+    <property name="java.class.path" value="C:\Users\vinod_rane\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.8.3.20180227-2135\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\vinod_rane\eclipse-workspace_new\Gurukul\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="| 0 |" name="Given user navigates to the gurukula application" time="0.004"/>
+  <testcase classname="| 0 |" name="When he log-in to the application" time="0"/>
+  <testcase classname="| 0 |" name="Then he add the branch to the application &quot;0&quot;" time="0"/>
+  <testcase classname="| 0 |" name="And he can edit the branch details &quot;0&quot;" time="0"/>
+  <testcase classname="| 0 |" name="And he can delete the branch" time="0"/>
+  <testcase classname="| 0 |" name="| 0 |" time="0.017"/>
+  <testcase classname="| 1 |" name="Given user navigates to the gurukula application" time="0"/>
+  <testcase classname="| 1 |" name="When he log-in to the application" time="0"/>
+  <testcase classname="| 1 |" name="Then he add the branch to the application &quot;1&quot;" time="0"/>
+  <testcase classname="| 1 |" name="And he can edit the branch details &quot;1&quot;" time="0"/>
+  <testcase classname="| 1 |" name="And he can delete the branch" time="0"/>
+  <testcase classname="| 1 |" name="| 1 |" time="0.003"/>
+  <testcase classname="| 2 |" name="Given user navigates to the gurukula application" time="0"/>
+  <testcase classname="| 2 |" name="When he log-in to the application" time="0"/>
+  <testcase classname="| 2 |" name="Then he add the branch to the application &quot;2&quot;" time="0"/>
+  <testcase classname="| 2 |" name="And he can edit the branch details &quot;2&quot;" time="0"/>
+  <testcase classname="| 2 |" name="And he can delete the branch" time="0"/>
+  <testcase classname="| 2 |" name="| 2 |" time="0.004"/>
+  <testcase classname="| 3 |" name="Given user navigates to the gurukula application" time="0"/>
+  <testcase classname="| 3 |" name="When he log-in to the application" time="0"/>
+  <testcase classname="| 3 |" name="Then he add the branch to the application &quot;3&quot;" time="0"/>
+  <testcase classname="| 3 |" name="And he can edit the branch details &quot;3&quot;" time="0"/>
+  <testcase classname="| 3 |" name="And he can delete the branch" time="0"/>
+  <testcase classname="| 3 |" name="| 3 |" time="0.004"/>
+</testsuite>
