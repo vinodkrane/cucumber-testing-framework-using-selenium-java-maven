@@ -16,7 +16,7 @@ Pre-requisite You need to have following softwares installed on your computer
 4) Eclipse Plugins: Maven and Cucumber
 5) Installation In order to start using the project you need to create your own Fork on Github and then clone the project.
 
-git clone https://github.com/vinodkrane/cucumber-testing-framework
+git clone https://github.com/vinodkrane/cucumber-testing-framework-using-selenium-java-maven.git
 
 ## Project structure
 
